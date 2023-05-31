@@ -13,6 +13,9 @@ In training.ipynb file go to the main function and make changes in the '--data',
 and by specifying the target destination of trained pytorch weights
 parser.add_argument('--data', default=r'C:\Users\KIIT\Documents\GitHub\CLIP_prefix_caption\data\coco\oscar_split_ViT-B_32_train.pkl') 
 parser.add_argument('--out_dir', default=r'C:\Users\KIIT\Documents\GitHub\clip-encoder--t5-decoder-\pretrained_models')
+due to no hardware access i have trained only till one epoch  you can download by the link below
+https://drive.google.com/file/d/1wr9_7n0v-a15H64TyK92WnqR1mA4fY87/view?usp=share_link
 
-After this step you will be having parameters to run the clip_prefix_captioning_inference.ipynb notebook under the notebook sub directory
+STEP-#
+Run the clip_prefix_captioning_inference.ipynb under the notebook sub directory
 
